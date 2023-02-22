@@ -16,6 +16,7 @@ const animal = {
   
   const animales = [
     {
+        //Mammals
       nombreComun: "Red Panda",
       nombreCientifico: "Ailurus fulgens",
       tipo: "Mammals",
@@ -75,6 +76,7 @@ const animal = {
         proteccionCorporal: "no",
         color: "green",
       },
+      //Reptiles
       {
         nombreComun: "Chameleon",
         nombreCientifico: "Trioceros melleri",
@@ -104,6 +106,52 @@ const animal = {
         plumas: "no",
         proteccionCorporal: "no",
         color: "green / yellow",
+      },
+      {
+        //Amphibians
+        nombreComun: "Red Eyed tree frog",
+        nombreCientifico: "Agalychnis callidryas",
+        tipo: "Amphibians",
+        tipoSangre: "Cold",
+        dieta: "Carnivore",
+        reproduccion: "oviparous",
+        habitat: "Earth",
+        patas: 4,
+        aletas: 0,
+        escamas: "no",
+        plumas: "no",
+        proteccionCorporal: "no",
+        color: "green, orange and white",
+      },
+      {
+        nombreComun: "Axolotls",
+        nombreCientifico: "Ambystoma mexicanum",
+        tipo: "Amphibians",
+        tipoSangre: "Cold",
+        dieta: "Carnivore",
+        reproduccion: "oviparous",
+        habitat: "Water",
+        patas: 4,
+        aletas: 0,
+        escamas: "no",
+        plumas: "no",
+        proteccionCorporal: "no",
+        color: "rose / gray",
+      },
+      {
+        nombreComun: "American bullfrogs",
+        nombreCientifico: "Lithobates catesbeianus",
+        tipo: "Amphibians",
+        tipoSangre: "Cold",
+        dieta: "Carnivore",
+        reproduccion: "oviparous",
+        habitat: "Water",
+        patas: 4,
+        aletas: 0,
+        escamas: "no",
+        plumas: "no",
+        proteccionCorporal: "no",
+        color: "green",
       },
     // ...otros animales
   ];
