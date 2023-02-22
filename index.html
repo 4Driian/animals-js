@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Galería de animales</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Galería de animales</h1>
+  </header>
+  <main>
+    <div id="filtros">
+      <h2>Filtros</h2>
+      <form>
+        <label>
+          Clase:
+          <select id="clase">
+            <option value="">Todos</option>
+            <option value="vertebrados">Vertebrados</option>
+            <option value="invertebrados">Invertebrados</option>
+          </select>
+        </label>
+        <label>
+          Tipo de sangre:
+          <select id="tipo-sangre">
+            <option value="">Todos</option>
+            <option value="caliente">Caliente</option>
+            <option value="fría">Fría</option>
+          </select>
+        </label>
+        <label>
+          Dieta:
+          <select id="dieta">
+            <option value="">Todos</option>
+            <option value="carnívoro">Carnívoro</option>
+            <option value="omnívoro">Omnívoro</option>
+            <option value="herbívoro">Herbívoro</option>
+          </select>
+        </label>
+        <label>
+          Reproducción:
+          <select id="reproduccion">
+            <option value="">Todos</option>
+            <option value="ovíparo">Ovíparo</option>
+            <option value="vivíparo">Vivíparo</option>
+            <option value="asexual">Asexual</option>
+          </select>
+        </label>
+        <label>
+          Hábitat:
+          <select id="habitat">
+            <option value="">Todos</option>
+            <option value="tierra">Tierra</option>
+            <option value="agua">Agua</option>
+            <option value="ambos">Ambos</option>
+          </select>
+        </label>
+      </form>
+    </div>
+    <div id="galeria"></div>
+    <div id="detalle"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
