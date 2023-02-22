@@ -198,6 +198,54 @@ const animal = {
         proteccionCorporal: "no",
         color: "greeen, white and black"
       },
+      { 
+        //Fish
+        nombreComun: "Pufferfish",
+        nombreCientifico: "Tetraodontidae",
+        tipo: "Fish",
+        tipoSangre: "Cold",
+        dieta: "Carnivore",
+        reproduccion: "oviparous",
+        habitat: "Water",
+        patas: 0,
+        aletas: 2,
+        escamas: "yes",
+        plumas: "no",
+        proteccionCorporal: "yes",
+        color: "brown"
+      },
+      { 
+        nombreComun: "Seahorse",
+        nombreCientifico: "Hippocampus",
+        tipo: "Fish",
+        tipoSangre: "Cold",
+        dieta: "Carnivore",
+        reproduccion: "viviparous",
+        habitat: "Water",
+        patas: 0,
+        aletas: 3,
+        escamas: "yes",
+        plumas: "no",
+        proteccionCorporal: "no",
+        color: "brown"
+      },
+      { 
+        nombreComun: "Bull Shark",
+        nombreCientifico: "Carcharhinus leucas",
+        tipo: "Fish",
+        tipoSangre: "Cold",
+        dieta: "Carnivore",
+        reproduccion: "viviparous",
+        habitat: "Water",
+        patas: 0,
+        aletas: 3,
+        escamas: "no",
+        plumas: "no",
+        proteccionCorporal: "yes",
+        color: "brown"
+      },
+
+
     // ...otros animales
   ];
   
