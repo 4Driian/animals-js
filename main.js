@@ -244,7 +244,22 @@ const animal = {
         proteccionCorporal: "yes",
         color: "brown"
       },
-
+      { 
+        // Invertebrates
+        nombreComun: "Firefly",
+        nombreCientifico: "Lampyridae",
+        tipo: "Invertebrates",
+        tipoSangre: "Cold",
+        dieta: "Omnivore",
+        reproduccion: "viparous",
+        habitat: "Earth",
+        patas: 4,
+        aletas: 0,
+        escamas: "no",
+        plumas: "no",
+        proteccionCorporal: "no",
+        color: "red, black and white",
+      },
 
     // ...otros animales
   ];
