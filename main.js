@@ -260,8 +260,36 @@ const animal = {
         proteccionCorporal: "no",
         color: "red, black and white",
       },
-
-    // ...otros animales
+      { 
+        nombreComun: "Ladybug",
+        nombreCientifico: "Coccinellidae",
+        tipo: "Invertebrates",
+        tipoSangre: "Hot",
+        dieta: "Omnivore",
+        reproduccion: "viviparous",
+        habitat: "Earth",
+        patas: 6,
+        aletas: 0,
+        escamas: "no",
+        plumas: "no",
+        proteccionCorporal: "si",
+        color: "red and black",
+      },
+      { 
+        nombreComun: "Octopus",
+        nombreCientifico: "Octopus vulgaris",
+        tipo: "Invertebrates",
+        tipoSangre: "Hot",
+        dieta: "Carnivore",
+        reproduccion: "viviparous",
+        habitat: "Water",
+        patas: 8,
+        aletas: 0,
+        escamas: "no",
+        plumas: "no",
+        proteccionCorporal: "si",
+        color: "pink",
+      }
   ];
   
   function mostrarGaleria() {
