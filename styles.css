@@ -1,0 +1,74 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+  font-family: 'Tilt Neon', cursive;
+}
+
+h3 {
+  text-align: end;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  width: 50%;
+  text-align: center;
+  ;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px #0000002f;
+  transition: all 0.2s ease-in;
+  width: 50%;
+}
+
+#filtro-reproduccion,
+#filtro-clase,
+#filtro-tipo-sangre,
+#filtro-dieta,
+#filtro-habitat {
+  border: 2px solid #508696;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  align-items: center;
+}
+
+.filtros {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  background-color: #759aa541;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px #0000002f;
+  transition: all 0.2s ease-in;
+}
+
+.galeria {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.animal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal div {
+  text-shadow: 5px 5px 5px rgb(0 0 0 / 48%);
+  background-color: rgba(50, 109, 49, 0.8);
+  margin: 0 auto;
+  margin-top: 230px;
+  border: none;
+  display: grid;
+  border-radius: 10px;
+  justify-content: center;
+}
