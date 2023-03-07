@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+  <title>Animal Proyect</title>
+</head>
+
+<body>
+  <div class="filtros">
+    <label>Filtrar por clase:</label>
+    <select id="filtro-clase">
+      <option value="Todos">Todos</option>
+      <option value="Mamiferos">Mamiferos</option>
+      <option value="Reptiles">Reptiles</option>
+      <option value="Anfibios">Anfibios</option>
+      <option value="Aves">Aves</option>
+      <option value="Pez">Pez</option>
+      <option value="Invertebrados">Invertebrados</option>
+
+    </select>
+    <label>Filtrar por tipo de sangre:</label>
+    <select id="filtro-tipo-sangre">
+      <option value="Todos">Todos</option>
+      <option value="Caliente">Caliente</option>
+      <option value="Frio">Frio</option>
+
+    </select>
+    <label>Filtrar por dieta:</label>
+    <select id="filtro-dieta">
+      <option value="Todos">Todos</option>
+      <option value="Carnivoro">Carnivoro</option>
+      <option value="Herbivoro">Herbivoro</option>
+      <option value="Omnivoro">Omnivoro</option>
+
+    </select>
+    <label>Filtrar por tipo de reproducción:</label>
+    <select id="filtro-reproduccion">
+      <option value="Todos">Todos</option>
+      <option value="Oviparos">Oviparo</option>
+      <option value="viviparos">viviparoso</option>
+
+    </select>
+    <label>Filtrar por hábitat:</label>
+    <select id="filtro-habitat">
+      <option value="Todos">Todos</option>
+      <option value="Tierra">Tierra</option>
+      <option value="Agua">Agua</option>
+
+    </select>
+  </div>
+
+  <div class="galeria"></div>
+
+<div class="modal">
+    <div class="modal-contenido">
+      <img class="modal-imagen" src="" alt="">
+      <h2 class="modal-titulo"></h2>
+      <div class="modal-informacion">
+
+      </div>
+      <button class="modal-cerrar"></button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
